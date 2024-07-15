@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package proto;
+option go_package = "github.com/alieAblaeva/document_processing/proto";
+
+
+message TDocument {
+    string url = 1; 
+    uint64 pub_date = 2;
+    uint64 fetch_time = 3;
+    string text = 4; 
+    uint64 first_fetch_time = 5; 
+}
