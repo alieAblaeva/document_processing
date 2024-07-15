@@ -46,7 +46,7 @@ message TDocument {
     ```
 
 3. **Set up MongoDB**:
-    Ensure you have a running MongoDB instance.:
+    Ensure you have a running MongoDB instance:
     ```sh
     docker-compose up -d
 
